@@ -1,22 +1,25 @@
-body{
-    background-color: rgb(49, 49, 49);
+a {
+    text-decoration: none;
 }
 
-a:link{
-    color: rgb(0, 132, 255);
-    cursor: pointer;
+nav {
+    display: flex;
+    padding: 9px;
+    transition: fadeIn1s;
+    align-items: center;
 }
 
-.topbar-buttons{
-    cursor: pointer;
-    background-color: rgb(19, 82, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 300%;
+button {
+    border-radius: 7px;
+    display: flex;
+    padding: 4px 13px;
 }
 
-.topbar{
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: blueviolet;
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+    }
 }
