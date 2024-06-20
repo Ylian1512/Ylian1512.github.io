@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: url('/assets/cursors/default.cur'), auto;
 }
 
 a {
@@ -17,5 +18,16 @@ button {
     border-radius: 7px;
     display: flex;
     padding: 5px 20px;
-    box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.436) ;
+    box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.436);
+    border: solid 4px #3b3b3b;
+    cursor: auto, url('/assets/cursors/button.ani');
+}
+
+.svg_icon_btns {
+    padding: 3px;
+}
+
+#modal_settings {
+    max-width: 400px;
+    max-height: 575px;
 }
