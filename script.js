@@ -14,13 +14,13 @@ function app_changeTheme() {
     const themeLink = document.getElementById("theme");
     themeLink.href = selectedTheme;
     console.log(`[LOG] Thème changé en ${selectedTheme}`)
-    setCookie('theme', selectedTheme, 365)
+    setCookie('theme', `/themes/${selectedTheme}`, 365 * 3)
 }
 
 // Cookies
 function loadCookies() {
     if (!getCookie("theme")) {
-        setCookie("theme", "light.css", 365 * 4)
+        setCookie("theme", "/themes/light.css", 365 * 3)
     }
 }
 function setCookie(name, value, days) {
