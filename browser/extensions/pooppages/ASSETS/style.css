@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(105, 51, 0);
+    font-family: 'cursive', sans-serif;
+}
+nav {
+    display: block;
+    padding: 0px;
+}
